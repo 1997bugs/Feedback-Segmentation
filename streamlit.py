@@ -4,20 +4,22 @@ import os
 import sys
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import math
-import string
+#import seaborn as sns
+#import matplotlib.pyplot as plt
+#import math
+#import string
 import re
 import nltk
 from sklearn.metrics.pairwise import cosine_similarity
 import spacy
 nlp = spacy.load("en_core_web_sm")
-import warnings
-warnings.filterwarnings("ignore")
+#import warnings
+#warnings.filterwarnings("ignore")
 
 from sentence_transformers import SentenceTransformer
+
 model = SentenceTransformer('bert-base-nli-mean-tokens')
+
 buckets = ['Package damaged', 'wrong address','leave order',
        'Delivery company service', 'Delayed delivery', 'credit card',
        'left at front door', 'Package open', 'Customer service',
