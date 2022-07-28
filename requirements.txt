@@ -2,7 +2,7 @@ nltk
 spacy
 pandas
 numpy
-sklearn
+scikit-learn
 spacy
 seaborn
 sentence_transformers
