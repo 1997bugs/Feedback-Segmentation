@@ -1,6 +1,11 @@
 import streamlit as st
 from plugnplay import *
 
+st.set_page_config(
+    page_title="Review Categories",
+    page_icon="🧊",
+    layout="wide"
+)
 
 comment = st.text_input('Enter comment','This is good')
 st.write('Comment is ',comment)
