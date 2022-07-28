@@ -1,0 +1,8 @@
+nltk
+spacy
+pandas
+numpy
+sklearn
+spacy
+seaborn
+sentence_transformers
